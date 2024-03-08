@@ -1,0 +1,5 @@
+{
+  "tableName": "notesapp",
+  "partitionKeyName": "NoteID",
+  "partitionKeyType": "N"
+}

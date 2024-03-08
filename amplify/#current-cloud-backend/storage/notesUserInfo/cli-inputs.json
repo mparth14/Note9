@@ -1,0 +1,10 @@
+{
+  "resourceName": "notesUserInfo",
+  "tableName": "notesUserInfo",
+  "partitionKey": {
+    "fieldName": "EmailID",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

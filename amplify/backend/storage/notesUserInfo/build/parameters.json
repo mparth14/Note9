@@ -1,0 +1,5 @@
+{
+  "tableName": "notesUserInfo",
+  "partitionKeyName": "EmailID",
+  "partitionKeyType": "S"
+}

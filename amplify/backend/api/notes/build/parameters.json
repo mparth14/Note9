@@ -1,0 +1,13 @@
+{
+    "AppSyncApiName": "notes",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authassignment1e1a34078",
+            "Outputs.UserPoolId"
+        ]
+    },
+    "S3DeploymentBucket": "amplify-assignment1-dev-200134-deployment",
+    "S3DeploymentRootKey": "amplify-appsync-files/279cb34754dac9a7f79787eeb548fd938cf06111"
+}

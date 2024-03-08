@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/addnote": {
+      "name": "/addnote",
+      "lambdaFunction": "addnote",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

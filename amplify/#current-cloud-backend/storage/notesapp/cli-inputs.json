@@ -1,0 +1,10 @@
+{
+  "resourceName": "notesapp",
+  "tableName": "notesapp",
+  "partitionKey": {
+    "fieldName": "NoteID",
+    "fieldType": "number"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}
