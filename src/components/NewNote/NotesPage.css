@@ -1,0 +1,46 @@
+/* components/NotesPage/NotesPage.css */
+
+.NotesPage {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.NoteInput {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.TitleInput {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.SaveButton {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.SaveButton:hover {
+  background-color: #0056b3;
+}
+
+.ErrorMessageContainer {
+  display: flex;
+  align-items: center;
+  background-color: #ffeeee; /* Example background color */
+  padding: 10px;
+  border: 1px solid #ffaaaa; /* Example border color */
+  border-radius: 5px;
+  margin-top: 10px; /* Adjust as needed */
+}

@@ -1,0 +1,21 @@
+{
+    "appName": "sharenote",
+    "roleName": "pinpointLambdaRole982e6dc7",
+    "cloudformationPolicyName": "cloudformationPolicy982e6dc7",
+    "cloudWatchPolicyName": "cloudWatchPolicy982e6dc7",
+    "pinpointPolicyName": "pinpointPolicy982e6dc7",
+    "authPolicyName": "pinpoint_amplify_982e6dc7",
+    "unauthPolicyName": "pinpoint_amplify_982e6dc7",
+    "authRoleName": {
+        "Ref": "AuthRoleName"
+    },
+    "unauthRoleName": {
+        "Ref": "UnauthRoleName"
+    },
+    "authRoleArn": {
+        "Fn::GetAtt": [
+            "AuthRole",
+            "Arn"
+        ]
+    }
+}

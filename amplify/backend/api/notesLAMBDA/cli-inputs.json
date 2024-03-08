@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": {
+    "/sendmynote": {
+      "name": "/sendmynote",
+      "lambdaFunction": "sendNote",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

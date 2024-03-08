@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.NavbarContainer {
+  max-height: 70px;
+  overflow: hidden;
+}
+
+.Navbar {
+  background-color: #202428;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+}
+
+.NavbarTitle {
+  font-size: 24px;
+}
+
+.UserSection {
+  display: flex;
+  align-items: center;
+}
+
+.Username {
+  margin-right: 10px;
+}
+
+.SignOutButton {
+  padding: 8px 16px;
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.SignOutButton:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.Logo {
+  width: 150px;
+  height: 100%;
+  display: inline-block;
+  padding: 0px;
+}
+
+.Logo img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.Links {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
