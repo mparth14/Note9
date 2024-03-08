@@ -5,7 +5,7 @@ import awsconfig from './aws-exports';
 import { Amplify } from 'aws-amplify';
 import 'aws-amplify/auth/enable-oauth-listener';
 import NewNote from './components/NewNote/NewNote';
-import Navbar from './components/Navbar/Navbar';
+import Navbar from './components/NavBar/NavBar';
 import {
   BrowserRouter as Router,
   Route,
