@@ -16,5 +16,5 @@ COPY . .
 # Expose the port the app runs on
 EXPOSE 3000
 
-# Define the command to run the app
-CMD ["npm", "run", "dev"]
+# Define the command to run the app with --host option
+CMD ["npm", "run", "dev", "--", "--host"]
