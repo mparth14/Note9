@@ -9,7 +9,6 @@ Note9 is a modern, serverless web application designed to streamline note-taking
 - **Frontend**:
   - React
   - MaterialUI
-  - Quill (for rich text editing)
 - **Backend**:
   - AWS Lambda
   - AWS S3
@@ -34,7 +33,6 @@ Note9 is a modern, serverless web application designed to streamline note-taking
 
 - Create, update, and delete notes effortlessly.
 - Notes are stored in AWS DynamoDB, ensuring scalability and reliability.
-- Rich text editing capabilities using Quill, enabling users to format their notes conveniently.
 
 ### 🖼️ Image Storage
 
@@ -61,21 +59,21 @@ Note9 is a modern, serverless web application designed to streamline note-taking
 
   `git clone https://github.com/mparth14/Note9.git`
 
-3. Navigate to the project directory:
+2. Navigate to the project directory:
 
   `cd Note9`
 
-4. Install dependencies:
+3. Install dependencies:
 
   `npm install`
 
-5. Start the development server:
+4. Start the development server:
 
   `npm run dev`
 
-6. Access the application at
+5. Access the application at
 
-  `http://localhost:3000`
+  `http://localhost:5173`
 
 ## Future Enhancements
 
